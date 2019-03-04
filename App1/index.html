@@ -4,9 +4,27 @@
     <meta charset="utf-8" />
     <title>App1</title>
     <link href="css/default.css" rel="stylesheet" />
-</head>
+    
+    <script>
+        var addnumbers = {
+            sum: 0,
+            starter: 1109,
+            stepdown: 11,
+            stopnumber: 119,
+            adder: function() {
+
+                for (i = this.starter; i > this.stopnumber; i -= this.stepdown) {
+                   this.sum += i;
+                   
+                } return this.sum;
+
+            }
+           
+        }; document.write(addnumber.adder());
+     </script>
+</head >
 <body>
-    <div>Content goes here!</div>
+   
     <script src="js/main.js"></script>
 </body>
 </html>
